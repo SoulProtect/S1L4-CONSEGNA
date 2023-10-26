@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>il blog dei developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <header id="header">
+      <div id="intro">
+        <img src="logo.svg" alt="logoepicode" id="logo" />
+        <h1>EPICODE-IL BLOG DEI DEVELOPERS</h1>
+        <div>
+          <p><i class="fa-solid fa-star">HOME</i></p>
+          <p><i class="fa-solid fa-star">ARTICOLI</i></p>
+          <p><i class="fa-solid fa-star">LAVORA CON NOI</i></p>
+        </div>
+      </div>
+    </header>
+    <main id="corpo">
+      <div>
+        <h2 id="titolomain">Come creare un template per i post</h2>
+        <div>
+         <p id="richiamo"> <i class="fa-solid fa-square-pen">di Mario Rossi</i> -
+          <i class="fa-solid fa-clock">pubblicato il 25-10-2020 </i>
+        </p>
+        </div>
+        <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span id="span1"> parti comuni</span> da applicare a tutte le pagine</p>
+      </div>
+      <div>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+            <li>Contenuti di intestazione del tag <span id="span2">&lt;header&gt;</span></li>
+            <li>Contenuti centrali variabili del <span id="span3"> &lt;main&gt;</span> (corpo principale)</li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag <span id="span4">&lt;footer&gt;</span></li>
+        </ul>
+      </div>
+      <div>
+        <p>
+            formattazione del codice il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <span id="span1">selezionare con i CSS</span>. Perciò i passi saranno:
+         <ol>
+            <li>Progettare su carta il markup finale, assegnando ad ogni specifico tag appropriato</li>
+        <li>Scrivere l'HTML, dai tag esterni a quelli interni e dall'alto verso il basso</li>
+        <li>Applicare gli stili CSS</li> 
+        </ol>   
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

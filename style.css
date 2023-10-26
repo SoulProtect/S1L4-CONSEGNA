@@ -1,0 +1,76 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+/* HEADER */
+body {
+  background-image: url("sfondo.png");
+  background-size: cover;
+}
+
+#intro {
+  text-align: center;
+  width: 100%;
+  padding: 40px;
+  margin: 30px;
+  border: 3px solid #0086a4;
+  box-sizing: border-box;
+  background-color: #0086a4;
+  font-family: "Poppins";
+  box-shadow: 4px 4px 8px;
+  color: white;
+}
+#header {
+  margin: 30px;
+}
+
+/* MAIN */
+#corpo {
+  width: 100%;
+  padding: 40px;
+  margin: 30px;
+  border: 3px solid white;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: "Poppins";
+  box-shadow: 4px 4px 8px;
+  color: black;
+}
+#titolomain {
+  font-family: "Poppins";
+  font-style: bold;
+  font-size: 2em;
+}
+#richiamo {
+  color: lightslategray;
+  font-family: "Poppins";
+  font-size: 0.9em;
+}
+#span1 {
+  color: blueviolet;
+}
+#span2 {
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: lightgray;
+  color: black;
+}
+#span3 {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: lightgray;
+    color: black;
+  }
+  #span4 {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: lightgray;
+    color: black;
+  }
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
